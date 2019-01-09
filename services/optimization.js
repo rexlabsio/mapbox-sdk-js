@@ -72,9 +72,9 @@ Optimization.getOptimization = function(config) {
   };
 
   var waypointCount = config.waypoints.length;
-  if (waypointCount < 2 || waypointCount > 12) {
+  if (waypointCount < 2 || waypointCount > 30) {
     throw new Error(
-      'waypoints must include between 2 and 12 OptimizationWaypoints'
+      'waypoints must include between 2 and 30 OptimizationWaypoints'
     );
   }
 
